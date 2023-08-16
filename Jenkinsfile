@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'javac HelloWorld.java'
+                sh 'javac Jenkins-Test-Repo/HelloWorld.java'
             }
         }
         stage('Run') {
             steps {
-                sh 'java HelloWorld'
+                sh 'java Jenkins-Test-Repo/HelloWorld'
             }
         }
     }
