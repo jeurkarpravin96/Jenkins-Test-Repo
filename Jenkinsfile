@@ -7,7 +7,7 @@ pipeline {
                 echo "Building"
                 bat 'java -version'
                 bat 'javac HelloWorld.java'
-                bat 'g++ cplus.cpp'
+                bat 'g++ CppHelloWorld.cpp'
             }
         }
         stage('Run') {
