@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo "Running"
                 bat 'java HelloWorld'
-                bat './a.exe'
+                bat 'a.exe'
             }
         }
     }
